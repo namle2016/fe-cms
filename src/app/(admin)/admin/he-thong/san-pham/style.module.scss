@@ -1,0 +1,20 @@
+.rootForm {
+  .contentAdd {
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    height: 30px;
+    width: 500px;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    border-radius: 5px;
+    border: #f7a856 solid 1px;
+    p {
+      font-size: 15px;
+      //font-weight: 600;
+      //color: #f58634;
+    }
+  }
+}

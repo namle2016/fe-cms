@@ -1,0 +1,89 @@
+@import "./mixins.scss";
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora/static/Lora-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora/static/Lora-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sacramento";
+  src: url("../fonts/Sacramento/Sacramento-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("../fonts/EB_Garamond/static/EBGaramond-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("../fonts/EB_Garamond/static/EBGaramond-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mabu";
+  src: url("../fonts/Libre_Bodoni/static/LibreBodoni-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+//Libre Bodoni
+@font-face {
+  font-family: "Mabu";
+  src: url("../fonts/Libre_Bodoni/static/LibreBodoni-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}

@@ -1,0 +1,70 @@
+@import "../../../../assets/styles/mixins";
+
+.wrapper_admin_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background-color: #f4f5fa;
+  background-image: url("../../../../assets/images/login_background.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  .container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.9;
+    height: 400px;
+    width: 450px;
+    @include mobile {
+      height: 300px;
+      width: 300px;
+    }
+    .logo_and_name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      margin-bottom: 24px;
+      gap: 10px;
+      .logo {
+        width: 35px;
+        height: 35px;
+      }
+      p {
+        font-size: 30px;
+        font-weight: 500;
+        color: #804bdf;
+      }
+    }
+    :global(.ant-select-multiple .ant-select-selection-placeholder) {
+      left: 62px !important;
+    }
+
+    :global(.ant-btn-primary) {
+      height: 40px;
+      background-color: #804bdf;
+      &:hover {
+        background-color: #af8bf1 !important;
+        //border-color: var(--secondary-hover-color) !important;
+      }
+    }
+
+    :global {
+      .ant-form {
+        width: 350px;
+        @include mobile {
+          width: 270px;
+        }
+        .ant-space {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

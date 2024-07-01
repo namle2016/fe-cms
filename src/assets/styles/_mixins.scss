@@ -1,0 +1,37 @@
+@import "./_variables.scss";
+
+@mixin desktop {
+  @media (max-width: #{$desktop-max-width}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (max-width: #{$laptop-max-width}) {
+    @content;
+  }
+}
+
+@mixin laptop-bs {
+  @media (max-width: #{$laptop-bs-max-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-max-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-max-width}) {
+    @content;
+  }
+}
+
+@mixin mobile-small {
+  @media (max-width: #{$mobile-small-width}) {
+    @content;
+  }
+}

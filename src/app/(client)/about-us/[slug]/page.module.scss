@@ -1,0 +1,27 @@
+.wrapperAboutUsDetail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  z-index: 2;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: calc(100vh - 80px);
+  .content {
+    display: flex;
+    flex-direction: row;
+    //max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    .aboutUsCurrent {
+      padding: 30px;
+      align-items: center;
+      justify-content: center;
+      background-color: aliceblue;
+      width: 100%;
+    }
+    .listAboutUs {
+      background-color: aquamarine;
+      min-width: 300px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.titleRoot {
+  position: fixed;
+  top: 120px;
+  z-index: 5;
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+  border-top: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+  visibility: visible;
+  &.top {
+    top: 80px;
+    //transition: all 0.3s ease-in-out;
+  }
+  &.hide {
+    top: 0px;
+  }
+}

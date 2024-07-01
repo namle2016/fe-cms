@@ -1,0 +1,19 @@
+
+.wrapper-head-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  .wrapper-head-admin-title {
+    letter-spacing: 0.4px;
+    font-size: 17px;
+    font-family: Montserrat;
+  }
+
+  .wrapper-head-admin-btn-back {
+    // color: $primary-color;
+    svg {
+      font-size: 1.2rem;
+    }
+  }
+}
